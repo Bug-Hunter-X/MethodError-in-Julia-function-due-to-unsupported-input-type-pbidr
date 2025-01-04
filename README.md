@@ -1,0 +1,3 @@
+# Julia Function Bug: MethodError with Unsupported Input Type
+
+This repository demonstrates a common error in Julia: a `MethodError` occurring when a function receives an unexpected input type that's not compatible with its operations. The `my_function` in `bug.jl` squares the input, but fails if it's not a number. The solution `bugSolution.jl` shows how to add type checking and appropriate error handling to prevent the error.
